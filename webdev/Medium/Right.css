@@ -1,0 +1,92 @@
+    body{
+            margin: 0%;
+        }
+        /* .rightsidebar div{
+            border: 1px solid black;
+        } */
+       .space{
+        margin: 0%;
+        display: flex;
+        margin-top: 65px;
+        height: 50vw;
+        width: 100vw;
+        position: fixed;
+        top: 0px;
+        left: 0%;
+       }
+       .contentcentre{
+        display: flex;
+        flex-direction: row;
+       }
+       .rightsidebar{
+        padding-left: 45px;
+        padding-top: 40px;
+        width: 25%;
+        overflow-y: scroll;
+        height: 85vh;
+       }
+       .h{
+        margin-left: 0%;
+        font-size: 17px;
+        font-family: sans-serif;
+        font-weight: bold;
+       }
+       .rcard1 div{
+            display: flex;
+       }
+       .rc1{
+        height: 20px;
+        font-size:14px;
+        margin-top: 25px;
+       }
+       .rc2{
+        font-size: 9px;
+       }
+       .re2{
+        margin-left: 20px;
+        color: #757575;
+       }
+       .list{
+        font-family: sans-serif;
+        color: #757575;
+        margin-top: 25px;
+        font-size: 14px;
+       }
+       .topics{
+        font-family: sans-serif;
+        margin-top: 25px;
+        font-size: 17px;
+       }
+       .topic{
+        display: flex;
+        flex-wrap: wrap;
+       }
+       .t{
+            margin:10px;
+            padding-top: 10px;
+            padding-left: 10px;
+            gap: 10px;
+            background-color: #f9f9f9;
+            height: 30px;
+            border-radius: 20px;
+            align-content: center;
+            font-family: sans-serif;
+            padding-right: 10px;
+        }
+        .read1{
+            margin-top: 30px;
+            font-size: 17px;
+            font-family: sans-serif;
+        }
+        .read2{
+            margin-top: 30px;
+            font-size: 14px;
+            font-family: sans-serif;
+            color: #757575;
+        }
+        .read3{
+            margin-top: 30px;
+            font-size: 12px;
+            font-family: sans-serif;
+            color: #757575;
+        }

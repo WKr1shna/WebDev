@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML-Only: Mega Application Form</h1>
+    <p><b>Rules: </b>Use only valid inputs. All starred fields are required. Read <i>titles</i> for hints. No JavaScript.</p>
+    <form action="">
+        <fieldset>
+            <legend>Account</legend>
+            <label for="">* Username
+            <br>
+            <input type="text">
+            </label>
+            <br>
+            <br>
+            <label for="">* Password
+            <br>
+            <input type="password">
+            </label>
+            <br>
+            <br>
+            <label for="">* Applying as
+            <br>
+            <select name="" id="">
+                <option value="" disabled selected>Choose one</option>
+                <option value="developer">developer</option>
+                <option value="engineer">engineer</option>
+                <option value="doctor">doctor</option>
+            </select>
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="">* Full name
+                <br>
+                <input type="text">
+            </label>
+            <br>
+            <br>
+            <label for="">* Date of birth
+                <br>
+                <input type="date">
+            </label>
+            <br>
+            <br>
+            <label for="">* Gender
+                <br>
+                <input type="radio" value="Female" name="gender">Female
+                <input type="radio" value="Male" name="gender">Male
+                <input type="radio" value="Other" name="gender">Other
+            </label>
+            <br>
+            <br>
+            <label for="">Govt ID (PAN format)
+                <br>
+                <input type="text" placeholder="ABCDE1234F">
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Contact & Address</legend>
+            <label for="">* Email
+                <br>
+                <input type="email" placeholder="you@example.com">
+            </label>
+            <br>
+            <br>
+            <label for="">* Phone (India)
+                <br>
+                <input type="number" placeholder="+91 9XXXXXXXXX">
+            </label>
+            <br>
+            <br>
+            <label for="">Portfolio URL (HTTPS only)
+                <br>
+                <input type="text" placeholder="https://example.com">
+            </label>
+            <br>
+            <br>
+            <label for="">* Country
+                <br>
+                <input type="text" placeholder="start typing...">
+            </label>
+            <br>
+            <br>
+            <label for="">State/UT (India)
+                <br>
+                <input type="text" placeholder="e.g., Maharashtra">
+            </label>
+            <br>
+            <br>
+            <label for="">PIN Code
+                <br>
+                <input type="number" placeholder="6-digit PIN">
+            </label>
+            <br>
+            <br>
+            <label for="">* Address
+                <br>
+                <textarea name="address" placeholder="Flat / House No, Street, Area" rows="5"></textarea>
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Education & Skills</legend>
+            <label for="">* Highest Qualification</label>
+            <br>
+            <br>
+            <select name="" id="">
+                <option value="" disabled selected>Select one</option>
+                <option value="">10th</option>
+                <option value="">12th</option>
+                <option value="">Under Graduate</option>
+                <option value="">Post Graduate</option>        
+            </select>
+            <br>
+            <br>
+            <label for="">CGPA (0-10)
+                <br>
+                <input type="number" placeholder="e.g., 8.23" min="0" max="10" step="0.1">
+            </label>
+            <br>
+            <br>
+            <label for="">* Primary Skill
+                <br>
+                <select name="" id="">
+                    <option value="" disabled selected>Pick one</option>
+                    <option value="">front end</option>
+                    <option value="">back end</option>
+                    <option value="">mid end</option>
+
+                </select>
+            </label>
+            <br>
+            <br>
+            <label for="">Other Skills (choose multiple)
+                <br>
+                <select name="" id="" multiple size="4">
+                    <option value="">HTML</option>
+                    <option value="">CSS</option>
+                    <option value="">JavaScript</option>
+                    <option value="">TypeScript</option>
+                    <option value="">React</option>
+                    <option value="">Node.js</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <label for="">Quick add via datalsit
+                <br>
+                <input type="text" placeholder="Start typing a skill">
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Availability & Preferences</legend>
+            <label for="">* Earliest Start Date
+            <br>
+            <input type="date">
+            </label>
+            <br>
+            <br>
+            <label for="">Preferred Interview Time 
+                <br>
+                <input type="time">
+            </label>
+            <br>
+            <br>
+            <label for="">Time Zone
+                <br>
+                <select name="" id="">
+                    <option value="">Asia/Kolkata(IST)</option>
+                    <option value="">Africa</option>
+                    <option value="">Australia</option>
+                    <option value="">Antartica</option>
+                </select>
+            </label>    
+            <br>
+            <br>
+            <label for="">Brand Color Preference
+                <br>
+                <input type="color">
+            </label>
+                <br>
+                <br>
+                <label for="">Expected CTC (Lakhs/Year)
+                    <br>
+                    <input type="range">
+                    <br>
+                    <pr>(We know you want 40 😐)</pr>
+                </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Documents</legend>
+            <label for="">* Upload Resume (PDF)
+                <br>
+                <input type="file">
+            </label>
+            <br>
+            <br>
+            <label for="">Profile Photo (JPG/PNG)
+                <br>
+                <input type="file">
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Short Answers</legend>
+            <label for="">* Why should we consider you
+                <br>
+                <textarea name="" id="" placeholder="write atleast 30 characters" rows="5"></textarea>
+            </label>
+            <br>
+            <br>
+            <label for="">Referral Code (pattern: ABC-1234)
+                <br>
+                <input type="text" placeholder="ABC-1234">
+            </label>
+        </fieldset>
+        <label for="">-> Optional Survey (expand)</label>
+        <br>
+        <br>
+        <label for="">
+            <input type="checkbox">* I confirmn all information is accurate and I accept the terms
+        </label>
+        <br>
+        <br>
+        <button>Submit</button>
+        <button>Reset</button>
+
+
+    </form>
+</body>
+</html>

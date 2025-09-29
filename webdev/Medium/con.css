@@ -1,0 +1,161 @@
+.content{
+        width: 80%;
+        height: 100%;
+        /* border: 1px solid black; */
+        
+        border-right: 2px solid #f9f9f9;
+       }
+       .content{
+        width: 70%;
+       }
+       .header{
+        margin: auto;
+        width: 50%;
+        height:10%;
+        position: fixed;
+        top: 62px;
+        left: 20%;
+        margin-top: 0px;
+        display: flex;
+        border-bottom: 2px solid #f9f9f9;
+        padding-right: 40px;
+        background-color: white;
+        margin-left: 10px;
+        }
+       .header>div{
+        align-content: center;
+        margin-right: 20px;
+        height: 100%;
+        color: #757575;
+        font-family: sans-serif;
+        font-size: 14px;
+       }
+       #foryou{
+        color: black;
+        border-bottom:2px solid black;
+       }
+       .header>div:hover{
+        color: black;
+        cursor: pointer;
+       }
+       .cards{
+        margin: auto;
+        width: 80%;
+        height:100%;
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 2px solid #f9f9f9;
+        padding-top: 80px;
+        scrollbar-width: none;
+        }
+        #cards{
+            overflow-y: scroll;
+            height: 80vh;
+        }
+        .cards>div{
+            height: 600px;
+            width: 100%;
+            border-bottom: 2px solid #f9f9f9;
+            padding-top: 40px;
+            padding-bottom: 30px;
+        }
+        .c1{
+            height: 20%;
+            margin: 0%;
+            padding: 0%;
+            display: flex;
+        }
+        .c1 p{
+            font-size: 13px;
+        }
+        .c2{
+            height: 60%;
+            width: 100%;
+            padding: 0%;
+            display: flex;
+            padding: auto;
+        }
+        .c2 p{
+            font-size: 19px;
+        }
+        .txt{
+            height: 100%;
+            width: 70%;
+
+        }
+        .img1{
+            width: 190px;
+            height: 150%;
+            background-image: url("https://imgs.search.brave.com/Ka2xTPtJN80eNVSNk4cvXIkyS-FsiHwSCX3nfRbqocs/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9pLmt5/bS1jZG4uY29tL3Bo/b3Rvcy9pbWFnZXMv/bGlzdC8wMDIvNjAx/LzQxNC81MzkucG5n");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-left: 5px;
+        }
+        .img2{
+            width: 180px;
+            height: 120%;
+            background-image: url("https://imgs.search.brave.com/Ka2xTPtJN80eNVSNk4cvXIkyS-FsiHwSCX3nfRbqocs/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9pLmt5/bS1jZG4uY29tL3Bo/b3Rvcy9pbWFnZXMv/bGlzdC8wMDIvNjAx/LzQxNC81MzkucG5n");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-left: 10px;
+        }
+        .img3{
+            width: 180px;
+            height: 120%;
+            background-image: url("https://imgs.search.brave.com/Ka2xTPtJN80eNVSNk4cvXIkyS-FsiHwSCX3nfRbqocs/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9pLmt5/bS1jZG4uY29tL3Bo/b3Rvcy9pbWFnZXMv/bGlzdC8wMDIvNjAx/LzQxNC81MzkucG5n");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .img4{
+            width: 180px;
+            height: 120%;
+            background-image: url("https://imgs.search.brave.com/Ka2xTPtJN80eNVSNk4cvXIkyS-FsiHwSCX3nfRbqocs/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9pLmt5/bS1jZG4uY29tL3Bo/b3Rvcy9pbWFnZXMv/bGlzdC8wMDIvNjAx/LzQxNC81MzkucG5n");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .img5{
+            width: 180px;
+            height: 120%;
+            background-image: url("https://imgs.search.brave.com/Ka2xTPtJN80eNVSNk4cvXIkyS-FsiHwSCX3nfRbqocs/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9pLmt5/bS1jZG4uY29tL3Bo/b3Rvcy9pbWFnZXMv/bGlzdC8wMDIvNjAx/LzQxNC81MzkucG5n");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .c3{
+            margin-top: 20px;
+            height: 20%;
+            display: flex;
+            justify-content: space-between;
+            width: 70%;
+            
+        }
+        .cards h1{
+            margin: 0%;
+        }
+        .cards p{
+            color: #757575;
+            margin: 0%;
+        }
+        .i1{
+            display: flex;
+        }
+        .i1>div{
+            margin-right: 15px;
+            color: #757575;
+            width: 60px;
+        }
+        
+        .i2{
+            display: flex;
+        }
+        .i2>div{
+            margin-right: 15px;
+            color: #757575;
+            
+        }
+       

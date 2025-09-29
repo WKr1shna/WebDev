@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body{
+            margin: 0px;;
+        }
+        .p{
+            display: grid;
+            grid-template-columns: 250px 2fr 2fr 1fr;
+            grid-template-rows: 70px 5fr 50px;
+            grid-template-areas:"c1 c1 c1 c1"
+                                "c2 c3 c3 c3"
+                                "c4 c4 c4 c4";
+            height: 713px;
+            width: 1455px;
+        }
+        .c1{
+            grid-area: c1;
+            background-color: rgb(23, 58, 141);
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .c11{
+            margin-bottom: 10px;
+        }
+        .c12{
+            margin-right: 20px;
+            margin-top: 20px;
+        }
+        a{
+            margin-left: 10px;
+            color: white;
+        }
+        .c2{
+            grid-area: c2;
+            color: white;
+            background-color:rgb(11, 50, 140) ;
+        }
+        .c21{
+            margin-left: 10px;
+        }
+        h4{
+            margin-left: 10px;
+        }
+        .c221{
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            margin-left:10px;
+            border-radius: 4px;
+            background-color:rgb(1, 31, 103);
+            height: 40px;
+            width:230px;
+        }
+        .c3{
+            grid-area: c3;
+            background-color: rgb(234, 234, 234);;
+        }
+        .c31{
+            margin-left: 10px;
+        }
+        .c32{
+            margin-left: 20px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .c321{
+            background-color: white;
+            width: 300px;
+            height: 100px;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .c4{
+           
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-area: c4   ;
+            background-color:rgb(11, 40, 106) ;
+        }
+    </style>
+</head>
+<body>
+    <div class="p">
+        <div class="c1">
+            <div class="c11">
+                <h1 style="margin: 0px; margin-top: 10px;">Dashboard</h1>
+            </div>
+            <div class="c12">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="c2">
+            <div class="c21">
+                <h2>Menu</h2>
+            </div>
+            <div class="c22">
+                <div class="c221">
+                    <h4>Dashboard</h4>
+                </div>
+                <div class="c221">
+                    <h4>Analytics</h4>
+                </div>
+                <div class="c221">
+                    <h4>Messages</h4>
+                </div>
+                <div class="c221">
+                    <h4>Settings</h4>
+                </div>
+            </div>
+        </div>
+        <div class="c3">
+            <div class="c31">
+                <h1>Welcome Back 👏🏻</h1>
+            </div>
+            <div class="c32">
+                <div class="c321">
+                    <h5>Card 1</h5>
+                    <p>Some content here...</p>
+                </div>
+                 <div class="c321">
+                    <h5>Card 2</h5>
+                    <p>Some content here...</p>
+                </div>
+                 <div class="c321">
+                    <h5>Card 3</h5>
+                    <p>Some content here...</p>
+                </div>
+                 <div class="c321">
+                    <h5>Card 4</h5>
+                    <p>Some content here...</p>
+                </div>
+                 <div class="c321">
+                    <h5>Card 5</h5>
+                    <p>Some content here...</p>
+                </div>
+                 <div class="c321">
+                    <h5>Card 6</h5>
+                    <p>Some content here...</p>
+                </div>
+            </div>
+        </div>
+        <div class="c4">
+            <p>©2025 My Dashboard-All Rights Reserved</p>
+        </div>
+    </div>
+</body>
+</html>
